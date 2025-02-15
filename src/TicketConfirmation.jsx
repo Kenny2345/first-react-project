@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import barcodeImg from '../barcode.avif'
+// import barcodeImg from '../barcode.avif'
 import './App.css'
 
 function TicketConfirmation() {
