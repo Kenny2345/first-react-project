@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-// import barcodeImg from '../barcode.avif'
+import barcodeImg from './barcode1.png'
 import './App.css'
 
 function TicketConfirmation() {
@@ -31,7 +31,7 @@ function TicketConfirmation() {
 
     <div className="ticket-details">
       {profileImage && (
-        <img src={profileImage} alt="Attendee Profile" className="profile-preview" />
+        <img src={profileImage} width={250} height={250} alt="Attendee Profile" className="profile-preview" />
       )}
       <p><strong>Name:</strong> {name}</p>
       <p><strong>Email:</strong> {email}</p>

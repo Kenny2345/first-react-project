@@ -45,7 +45,7 @@ function AttendeeDetails() {
         <div className="inner-container">
           <p className="ticket-label">Upload Profile Photo</p>
           <div className="upload-box">
-            {profileImage ? <img src={profileImage} alt="Profile" className="profile-preview" /> :
+            {profileImage ? <img src={profileImage} height={200} width={200} alt="Profile" className="profile-preview" /> :
               <label className="upload-label">
                 Drag & drop or click to upload
                 <input type="file" accept="image/*" onChange={handleImageUpload} hidden />
